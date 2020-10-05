@@ -3,7 +3,7 @@ package com.jfsoftware.interview.arrays;
 public class LargestSmallestInArray {
 
     /**
-     * Method to find largets and smallest number in an unsorted int array
+     * Method to find largest and smallest number in an unsorted int array
      */
     private static void findLargestAndSmallestNumber(int[] numbers) {
         int largest = numbers[0];

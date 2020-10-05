@@ -1,9 +1,13 @@
 package com.jfsoftware.interview.integers;
 
+
+/**
+ * In an array of numbers 1 to 100, say, find the missing number
+ */
 public class MissingNumberInArray {
 
     private static void findMissingNumber(int[] nums, int n) {
-        int expectedSum = n * (n + 1) / 2;
+        int expectedSum = n * (n + 1) / 2; // this is the formula for the sum from 1 to n. 100 *
         int actualSum = 0;
         for (int num : nums) {
             actualSum += num;

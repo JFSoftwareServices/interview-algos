@@ -1,5 +1,9 @@
 package com.jfsoftware.interview.integers;
 
+
+/**
+ * Reverse a number without using data structures
+ */
 public class ReverseNumber {
 
     public static void main(String[] args) {

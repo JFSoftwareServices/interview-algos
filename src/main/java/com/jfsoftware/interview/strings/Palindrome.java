@@ -1,5 +1,9 @@
 package com.jfsoftware.interview.strings;
 
+
+/**
+ * A word is the same backwards as it it forwards
+ */
 public class Palindrome {
 
     private static void isPalindrome(String word) {

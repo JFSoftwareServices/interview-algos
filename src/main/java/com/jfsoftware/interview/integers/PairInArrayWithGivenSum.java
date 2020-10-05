@@ -2,6 +2,9 @@ package com.jfsoftware.interview.integers;
 
 import java.util.Arrays;
 
+/**
+ * Find the pairs of numbers in an array who's sum matches the given number
+ */
 public class PairInArrayWithGivenSum {
 
     private static void printPairThatMatchesNumber(int[] numbers, int k) {

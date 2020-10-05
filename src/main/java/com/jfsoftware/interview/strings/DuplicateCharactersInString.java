@@ -1,5 +1,8 @@
 package com.jfsoftware.interview.strings;
 
+/**
+ * Report, true or false, if a string contains duplicate characters
+ */
 public class DuplicateCharactersInString {
     private static void containsDuplicates(String s) {
         boolean duplicates = false;
